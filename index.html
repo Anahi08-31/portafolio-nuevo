@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="diseño web,anahi melgarejo,curriculum,desarrollador web,front end,back end">
+	<meta name="description" content="Presentacion formal">
+	<meta name="author" content="Anahi Melgarejo">
+	<meta name ="robots" content="index" >
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+  <script>
+if (!window.scrollTo) {
+  window.scrollTo = function() {
+    var x = window.pageXOffset !== undefined ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
+    var y = window.pageYOffset !== undefined ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    var args = [].slice.call(arguments);
+    
+    if (typeof args[0] === "number") {
+      args[0] += x;
+    } else {
+      args[0] = x;
+    }
+    
+    if (typeof args[1] === "number") {
+      args[1] += y;
+    } else {
+      args[1] = y;
+    }
+    
+    return window.scroll(args[0], args[1]);
+  };
+}
+</script>
+	
+	<title>Anahi Melgarejo</title>
+</head>
+
+<body>
+	<script src="script.js"></script>
+
+	 <header id="inicio">
+
+      <div class="inicio" id="inicio">
+      	<video autoplay muted loop>
+    <source src="./fondo.mp4" type="video/mp4" class="fondo">
+  </video>
+        <div class="contenedor">
+        	<div class="sub-contenedor">
+          <h1>Anahi Melgarejo</h1>
+          <h2>Desarrolladora full stack</h2>
+          <button role="button" class="button-name">Descargar CV</button>
+          </div>
+        </div>
+        <div class="cinta1"></div>
+        <div class="cinta2"></div>
+        <div class="cinta3"></div>
+        <div class="cinta4"></div>
+      </div>
+           <nav class="nav">
+      	<label for="menu"></label>
+  <select class="menu" id="menu">
+     <option value="">Menu</option>
+  
+    <option value="#inicio">Inicio</option>
+    <option value="#sobre-mi">Sobre mí</option>
+    <option value="#habilidades">Skills</option>
+    <option value="#formacion">Formación</option>
+    <option value="#contacto">Proyectos</option>
+     <option value="tienda">Tienda online</option>
+  </select>
+</nav> 
+    </header>
+    <section class="sobre-mi" id="sobre-mi">
+      <div class="contenedor2">
+        <div>
+        	<div class="sub-contenedor2">
+          <h2>Sobre mí</h2></div>
+          <p class="descripcion">Mi nombre es Juan y soy un programador front-end apasionado por el desarrollo web. Me encanta crear experiencias interactivas y atractivas para los usuarios.</p>
+        </div>
+        <img class="imagen1"src="./foto.jpeg">
+        <div class="linea_1"></div>
+        <div class="linea_2"></div>
+      </div>
+    </section>
+    
+    <section class="skills" id="skills">
+      <div class="contenedor4">
+       <img class="imagen2" src="./imagen2.jpg">
+         <div class="sub-contenedor4">
+        <div class="flip-card" id="flip-card1">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <h2>Skills</h2>
+            <h3>Html,CSS,JAVASCRIPT,PYTHON</h3>
+
+
+        </div>
+        <div class="flip-card-back">
+            <p class="title">Skills</p>
+            <p>Tengo conocimientos solidos en HTML,CSS,Javascript y Python,actualmente me centro en el desarrollo de paginas web pero me gustaria incursionar tambien en el mundo de las aplicaciones moviles y videojuegos.</p>
+        </div>
+    </div>
+</div>
+  
+  </div>
+
+
+
+
+        <div class="linea_1b"></div>
+        <div class="linea_2b"></div>
+      </div>
+    </section>
+    <section class="formacion" id="formacion">
+      <div class="contenedor5">
+        <div>
+        	<div class="sub-contenedor5"
+        	id="sub-contenedor5">
+          <h2>Formación</h2></div>
+      </div>
+
+         <img src="./flecha.gif" class="flecha1">
+         <img src="./flecha.gif" class="flecha2">
+         <img src="./flecha.gif" class="flecha3">
+         <img src="./flecha.gif" class="flecha4">
+
+   
+          <div class="parrafo1"><p>Soy Dalto(canal de youtube):Realize sus cursos de HTML,CSS,Javascript y Python.</p></div>
+          <div class="parrafo2"><p>Exercism:Actualmente me encuentro finalizando el curso de python </p></div>          
+          <div class="parrafo3"><p>Freecodecamp:Actualmente estoy tomando el curso de responsive designe en esta pagina.</p></div>          
+          <div class="parrafo4"><p>Autodidacta:Cuando me intereso en un lenguaje proceso a conseguir toda la infomacion posible de el para luego poder hacer un uso adecuado del mismo.</p></div>
+
+      
+      </div>
+      </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+  <div class="contenedor6">
+    <h2>Contáctame</h2>
+<form id="form">
+  <div class="field">
+    <label for="from_name">Nombre</label>
+    <input type="text" name="from_name" id="from_name">
+  </div>
+  <div class="field">
+    <label for="phone">Telefono</label>
+    <input type="text" name="phone" id="phone">
+  </div>
+  <div class="field">
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+  </div>
+  <div class="field">
+    <label for="message">Mensaje</label>
+    <input type="text" name="message" id="message">
+  </div>
+
+  <input type="submit" id="button" value="Enviar" >
+</form>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('GGqT8Avx9joXejVLn')
+</script>
+  </div>
+</section>
+
+</body>

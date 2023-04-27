@@ -1,0 +1,501 @@
+body{
+	background-color: #FFF0F0;
+}
+.nav{
+	width: 100%;
+	height: 10vh;
+	background-color: #F19FA5;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.nav li{
+  display: inline-block;
+  margin-right: 5%; 
+
+
+}
+
+.menu{
+margin-left: 70%;
+ color:#5EC3FF;
+ position: absolute;
+ top:20%;
+ left: 10%;
+}
+
+.inicio{
+	width: 100%;
+	height: 100vh;
+	background-color: transparent;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+.inicio video{
+	width: 100%;
+	height:110vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contenedor{
+	background-color: #FFF0F0;
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	transform: rotate(-5deg);
+	box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.sub-contenedor{
+	border:solid 2px #99174D ;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.contenedor h1{
+	font-weight: 25px;
+	position: absolute;
+	left: 20%;
+	top: 15%;
+}
+
+.contenedor h2{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
+
+
+.button-name {
+ align-items: center;
+ appearance: none;
+ background-color: #FCFCFD;
+ border-radius: 4px;
+ border-width: 0;
+ box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px,rgba(45, 35, 66, 0.15) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+ box-sizing: border-box;
+ color: #36395A;
+ cursor: pointer;
+ display: inline-flex;
+ font-family: "JetBrains Mono",monospace;
+ height: 48px;
+ justify-content: center;
+ line-height: 1;
+ list-style: none;
+ overflow: hidden;
+ padding-left: 16px;
+ padding-right: 16px;
+ position: relative;
+ text-align: left;
+ text-decoration: none;
+ transition: box-shadow .15s,transform .15s;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ white-space: nowrap;
+ will-change: box-shadow,transform;
+ font-size: 18px;
+ position: absolute;
+ top: 70%;
+ left: 30%;
+}
+
+.button-name:focus {
+ box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-name:hover {
+ box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+ transform: translateY(-2px);
+}
+
+.button-name:active {
+ box-shadow: #D6D6E7 0 3px 7px inset;
+ transform: translateY(2px);
+}
+.cinta1{
+	position: absolute;
+	width: 18%;
+	height: 8%;
+	background-color: #BB6141;
+	transform: rotate(20deg);
+	left: 71%;
+	top: 15%;
+	opacity: 70%;
+}
+
+.cinta2{
+	position: absolute;
+	width: 18%;
+	height: 8%;
+	background-color: #BB6141;
+	transform: rotate(-25deg);
+	left: 18%;
+	top: 23%;
+	opacity: 70%;
+}
+
+.cinta3{
+	position: absolute;
+	width: 18%;
+	height: 8%;
+	background-color: #BB6141;
+	transform: rotate(25deg);
+	left: 20%;
+	top: 75%;
+	opacity: 70%;
+}
+
+.cinta4{
+	position: absolute;
+	width: 18%;
+	height: 8%;
+	background-color: #BB6141;
+	transform: rotate(-25deg);
+	left: 74%;
+	top: 69%;
+	opacity: 70%;
+}
+
+.sobre-mi{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top:100%;
+	left: 0;
+	background-color: #FFF0F0;
+}
+
+.contenedor2{
+	width: 50%;
+	height: 75%;
+	background-color: #fff;
+	position: absolute;
+	left: 25%;
+	top: 15%;
+	border-radius: 5%;
+	box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.sub-contenedor2{
+	width: 100%;
+	height: 10%;
+	background-color: #FD93A7;
+	position: absolute;
+	top: 5%;
+	left: 0;
+}
+
+.sub-contenedor2 h2{
+	position: absolute;
+	top: -25%;
+	left: 35%;
+}
+
+.descripcion{
+ position: absolute;
+ top: 20%;
+ left: 5%
+}
+
+.imagen1{
+	border-radius: 100%;
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	top: 70%;
+	left: 35%;
+}
+
+.linea_1{
+	width: 30%;
+	height: 0.5%;
+	background-color: #000;
+	position: absolute;
+	top: 85%;
+	left: 2%;
+}
+
+.linea_2{
+	width: 30%;
+	height: 0.5%;
+	background-color: #000;
+	position: absolute;
+	top: 85%;
+	left: 65%;
+}
+
+.skills{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 200%;
+	left: 0;
+	background-color: #FFCAD4;
+}
+
+.imagen2{
+	width:55%;
+	height: 80%;
+    position: absolute;
+	top: 18%;
+	left: 0%;
+	box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.sub-contenedor4{
+	width: 45%;
+	height: 60%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	background-color: transparent;
+	box-shadow: 0px 2px 2px -1px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.linea_1b{
+	width: 0.5%;
+	height: 25%;
+	background-color: #000;
+	position:absolute;
+	top: 10%;
+	left: 73%; 
+}
+
+.linea_2b{
+	width: 0.5%;
+	height: 15%;
+	background-color: #000;
+	position:absolute;
+	top: 85%;
+	left: 73%; 
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 45vw;
+  height: 60vh;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
+
+.flip-card-front h2,h3{
+	color:#000;
+}
+
+#flip-card1{
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.flip-card-front{
+background-color: #fff;
+}
+
+.flip-card-back {
+  background-color: #fff;
+  color: #000;
+  transform: rotateY(180deg);
+}
+
+
+
+.formacion {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 300%;
+  left: 0;
+  background-color:#fff;
+}
+
+.sub-contenedor5 {
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  background-color:#FFCAD4;
+  border:solid 1px #000;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.parrafo1{
+	width: 30%;
+	height: auto;
+	border-radius: 20%;
+	padding: 0.5%;
+	position: absolute;
+	top:10% ;
+	left:2%;
+	background-color: #FFCAD4;
+}
+
+.parrafo2{
+	width: 30%;
+	height: auto;
+	border-radius: 100%;
+	position: absolute;
+	top:6%;
+	left:68%;
+    background-color: #FFCAD4;
+    padding: 0.5%;
+    border-radius: 20%;
+}
+.parrafo3{
+	width: 30%;
+	height: auto;
+	border-radius: 100%;
+	position: absolute;
+	top: 72%;
+	left:5%;
+	background-color: #FFCAD4;
+    padding: 0.5%;
+    border-radius: 20%;
+}
+.parrafo4{
+	width: 30%;
+	height: auto;
+	border-radius: 100%;
+	position: absolute;
+	top:70% ;
+	left:68%;
+	background-color: #FFCAD4;
+    padding: 0.5%;
+    border-radius: 20%;
+}
+
+.flecha1{
+	position: absolute;
+	top:30% ;
+	left:25%;
+	width: 15%;
+	height: 15%;
+}
+
+.flecha2{
+	position: absolute;
+	top:28%;
+	left:60%;
+	width: 15%;
+	height: 15%;
+	transform: rotate(110deg);
+}
+
+.flecha3{
+	position: absolute;
+	top: 53%;
+	left:25%;
+	width: 15%;
+	height: 13%;
+	transform: rotate(-81deg);
+}
+
+.flecha4{
+	position: absolute;
+	top:55% ;
+	left:60%;
+	width: 15%;
+	height: 13%;
+	transform: rotate(180deg);
+}
+
+.sub-contenedor5 h2 {
+  position: absolute;
+  left: 15%;
+  top: 18%;
+}
+
+
+
+.contacto {
+  position: absolute;
+  top: 400%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF0F0;
+}
+
+.contacto h2 {
+  text-align: center;
+}
+
+#form{
+	width: 35%;
+	height: 50%;
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   background-color: #fff;
+   padding: 2%;
+}
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none
+}
+
+.contenedor6 h2{
+	position: absolute;
+	top: 15%;
+	left: 40%;
+}
